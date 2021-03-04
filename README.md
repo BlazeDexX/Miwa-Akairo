@@ -8,7 +8,7 @@
 ## Requirements
 
 1. a Brain (ofc)
-2. Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
+2. Discord Bot Token | **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
 3. Node.JS v14.x ow newer
 
 ## 🚀 Getting Started
@@ -22,7 +22,7 @@ yarn install
 ## ⚙️ Configuration
 Copy all the data needed `from .env-example`. After that, create new file called `.env` and paste in here
 
-⚠️ **Note: Never commit or share your token or api keys publicly** ⚠️
+⚠️ **Note: Never commit or share your token** ⚠️
 
 ```md
 DISCORD_TOKEN=
