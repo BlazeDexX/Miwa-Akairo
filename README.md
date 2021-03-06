@@ -4,7 +4,8 @@
 > Miwa is character from [Jujutsu Kaisen](https://jujutsu-kaisen.fandom.com/wiki/Kasumi_Miwa) and built with Discord.js and uses Akairo for the base framewrok
 
 
-<a href="https://github.com/BlazeDexX/Miwa-Akairo/blob/main/package.json"><img src="https://img.shields.io/github/package-json/v/BlazeDexX/Miwa-Akairo" alt="Node.JS CI Status" /></a>
+<a href="#"><img src="https://img.shields.io/github/license/BlazeDexX/Miwa-Akairo?style=plastic"/></a>
+<a href="#"><img src="https://img.shields.io/github/stars/BlazeDexX/Miwa-Akairo?style=plastic"/></a>
 ![Written](https://camo.githubusercontent.com/a3544e8c62ffc6f9b9dfbbfe7e280b9d22db60ad526dee467542e88b020ad6f3/68747470733a2f2f62616467656e2e6e65742f62616467652f69636f6e2f747970657363726970743f69636f6e3d74797065736372697074266c6162656c)
 
 ## Requirements
