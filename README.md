@@ -12,7 +12,7 @@
 
 1. a Brain (ofc)
 2. Discord Bot Token | **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
-3. Node.JS v14.x ow newer
+3. Node.JS v14.x
 
 ## 🚀 Getting Started
 ```
