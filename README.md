@@ -18,9 +18,8 @@
 ```
 git clone https://github.com/BlazeDexX/Miwa-Akairo.git
 1. npm install or yarn install
-2. Copy `.env.schema` and create file `.env` and fill all data lile `.env.example`
-3. npm run build or yarn run build
-4. npm start or yarn start
+2. npm run build or yarn run build
+3. npm start or yarn start
 ```
 
 ## ⚙️ Configuration
@@ -30,8 +29,9 @@ Copy all the data needed `from .env-example`. After that, create new file called
 
 ```md
 DISCORD_TOKEN=
-PREFIX=
+DISCORD_PREFIX=
 DEFAULT_VOLUME=
+OWNER_ID=
 ```
 
 ## 📝 Credits
