@@ -1,14 +1,14 @@
 import "dotenv/config";
-import app from "express";
+const app = require("express")();
 import { ShardingManager } from "discord.js";
 import moment from "moment";
 import { resolve } from "path";
 
 /* Build Server */
-app().get("/", (_: any, res: any) => {
+app.get("/", (_: any, res: any) => {
     res.sendStatus(200);
 });
-app().listen(3000);
+app.listen(3000);
 
 const shard = new ShardingManager(resolve(__dirname, "MiwaBase.js"), {
     totalShards: "auto",

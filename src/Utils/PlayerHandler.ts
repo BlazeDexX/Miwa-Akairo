@@ -85,7 +85,6 @@ export default class PlayerHandler {
         return type !== "album" ? type === "playlist" ? { type: type, playlistName: playlistName, tracks: datasong } : { type: type, tracks: datasong } : { type: type, albumName: albumName, tracks: datasong };
     }
     async play(song: any | null, message: Message): Promise<void> {
-        message.guild?.queue.player.dispatcher.setBitrate(128000)
         try {
             const dispatcher = await message.guild?.queue.player.play(
                 await ytdlforplay(song.url, {
@@ -133,6 +132,7 @@ export default class PlayerHandler {
                 console.log(`[PLAYER] PLAYER_HANDLER_ERROR: ${e}`);
                 this.play(message.guild?.queue.songs[0], message);
             });
+            dispatcher.setBitrate(128000)
             dispatcher.setVolumeLogarithmic(message.guild?.queue.volume / Number(process.env.DEFAULT_VOLUME));
         } catch (e) {
             console.log(`[PLAYER] PLAYER_HANDLER_ERROR: ${e}`);
